@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>DressedQuick</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =========================
+STUBBORN
+========================= -->
+
+<header>
+<h1>DressedQuick</h1>
+
+<h2>
+¡Bienvenido a tu armario! 
+</h2>
+</header>
+
+</body>
+
+</html> <!-- =========================
+TIEMPO / ESTACIÓN
+========================= -->
+
+<section id="meteo">
+
+<h2>Tiempo</h2>
+<label for="ville">Ciudad: </label>
+<input
+type="text"
+id="ville"
+placeholder="p. ej. Lyon"
+>
+
+<p>
+Estación:
+<span id="saison">---</span>
+</p>
+
+<p>
+Temperatura:
+<span id="temperature">--- °C</span>
+</p>
+
+<button id="actualiserMeteo">
+Actualizar tiempo
+</button>
+
+</section>
+
+
+<!-- =========================
+FILTROS
+========================= -->
+
+<section id="filtres">
+
+<h2>Buscar una prenda</h2>
+
+<label for="type">Tipo:</label>
+
+<select id="type">
+<option value="Tous">Todos</option>
+<option value="t-shirt">Camiseta</option>
+<option value="pantalon">Pantalones</option>
+<option value="robe">Vestido</option>
+<option value="jupe">Falda</option>
+<option value="collants">Medias</option>
+<option value="sous-vêtement">Ropa interior</option>
+</select>
+
+
+<label for="taille">Talla:</label>
+
+<select id="taille">
+<option value="">Todas</option>
+<option value="XS"> XS </option>
+<option value="S">S</option>
+<option value="M">M</option>
+<option value="L">L</option>
+<option value="autre taille"> Otra talla </option>
+</select>
+
+
+<label for="saisonFiltre">Estación:</label>
+
+<select id="saisonFiltre">
+<option value="">Todas</option>
+<option value="printemps">Primavera</option>
+<option value="summer">Verano</option>
+<option value="autumn">Otoño</option>
+<option value="winter">Invierno</option>
+<option value="all seasons">Todas las estaciones</option>
+</select>
+
+<button id="search">
+Buscar
+</button>
+
+</section>
+
+
+<!-- =========================
+ARMARIO
+========================= -->
+
+<main>
+
+<h2>Mi armario</h2>
+
+<section id="garde-robe">
+
+<!--
+Las prendas pueden
+añadirse aquí automáticamente
+mediante JavaScript. 
+-->
+
+</section>
+
+</main>
+
+
+<!-- =========================
+ESTADO DE LAS PRENDAS
+========================= -->
+
+<section id="clothing-status">
+<h2>Estado de las prendas</h2>
+
+<p>
+Selecciona una o más prendas de tu armario. 
+Luego, haz clic en un estado para asignárselo. 
+Si no hay nada seleccionado, el botón filtrará el armario según el estado. 
+</p>
+
+<button type="button" data-status="Available">
+Disponible
+</button>
+
+<button type="button" data-status="In the washing machine">
+En la lavadora
+</button>
+
+<button type="button" data-status="In the laundry basket">
+En el cesto de la ropa sucia
+</button>
+
+<button type="button" data-status="Drying">
+Secándose
+</button>
+
+<button type="button" data-status="Other">
+Otro
+</button>
+</section>
+
+
+<!-- =========================
+MODO FOTO
+========================= -->
+
+<section id="photo-mode">
+
+<h2>Modo foto</h2>
+
+<p>
+Añade o toma una foto de una prenda. 
+</p> </p>
+
+<input
+type="file"
+accept="image/*"
+id="photo"
+>
+
+</section>
+
+
+<!-- =========================
+AÑADIR UNA PRENDA DE VESTIR
+========================= -->
+
+<section id="ajouter-vetement">
+
+<h2>Añadir una prenda de vestir manualmente</h2>
+
+<form>
+
+<label for="couleur">
+Color:
+</label>
+
+<input
+type="text"
+id="couleur"
+>
+
+
+<label for="marque">
+Marca:
+</label>
+
+<input
+type="text"
+id="marque"
+>
+
+
+<label for="typeVetement">
+Tipo:
+</label>
+
+<input
+type="text"
+id="typeVetement"
+>
+
+
+<label for="tailleVetement">
+Talla:
+</label>
+
+<input
+type="text"
+id="tailleVetement"
+>
+
+
+<button type="submit">
+Añadir
+</button>
+
+</form>
+
+</section>
+<script src="script.js"></script>
+</body>
+</html> 

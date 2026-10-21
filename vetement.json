@@ -1,0 +1,178 @@
+[
+  {
+    "couleurs": "bleu avec manches fushia motif blanc",
+    "marque": "LULAROE",
+    "taille": "S",
+    "longueur": "manches 3/4",
+    "type": "t-shirt",
+    "forme": "normal",
+    "meteo": ["printemps", "été", "automne", "hiver"],
+    "specificite": "plus long que les autres",
+    "photo": "/images/image(1).jpeg"
+  },
+  {
+    "couleurs": "rose avec manches et bordures noires",
+    "marque": "KOOKAÏ",
+    "taille": "S",
+    "longueur": "normale",
+    "type": "t-shirt",
+    "forme": "cintré",
+    "meteo": ["printemps", "été", "automne", "hiver"],
+    "specificite": "les manches sont quasiment inexistantes",
+    "photo": "/images/image(2).jpeg"
+  },
+  {
+    "couleurs": "blanc",
+    "marque": "aucune",
+    "taille": "S",
+    "longueur": "normale / manches courtes",
+    "type": "t-shirt",
+    "forme": "ample",
+    "meteo": ["printemps", "été", "automne", "hiver"],
+    "specificite": "dentelles sur les manches",
+    "photo": "/images/image(3).jpeg"
+  },
+  {
+    "couleurs": "rose",
+    "marque": "aucune",
+    "taille": "S",
+    "longueur": "normale / manches courtes",
+    "type": "t-shirt",
+    "forme": "ample",
+    "meteo": ["printemps", "été", "automne", "hiver"],
+    "specificite": "dentelles sur les manches",
+    "photo": "/images/image(3).jpeg"
+  },
+  {
+    "couleurs": "violet",
+    "marque": "Kiabi",
+    "taille": "S",
+    "longueur": "normale",
+    "type": "t-shirt",
+    "forme": "normal",
+    "meteo": ["printemps", "été", "automne", "hiver"],
+    "specificite": "col en V",
+    "photo": "/images/image(4).jpeg"
+  },
+  {
+    "couleurs": "bleu",
+    "marque": "Kiabi",
+    "taille": "S",
+    "longueur": "normale",
+    "type": "t-shirt",
+    "forme": "normal",
+    "meteo": ["printemps", "été", "automne", "hiver"],
+    "specificite": "col en V",
+    "photo": "/images/image(5).jpeg"
+  },
+  {
+    "couleurs": "noir avec étoile blanche",
+    "marque": "Converse",
+    "taille": "S",
+    "longueur": "normale",
+    "type": "t-shirt",
+    "forme": "normale",
+    "meteo": ["printemps", "été", "automne", "hiver"],
+    "specificite": "il y a des écritures au milieu",
+    "photo": "/images/image(6).jpeg"
+  },
+  {
+    "couleurs": "violet pailleté",
+    "marque": "Kiabi",
+    "taille": "S",
+    "longueur": "normale",
+    "type": "pantalon",
+    "forme": "normal",
+    "meteo": ["printemps", "automne", "hiver"],
+    "specificite": "velours",
+    "photo": "/images/image(7).jpeg"
+  },
+  {
+    "couleurs": "noir avec différentes fleurs",
+    "marque": "Kiabi",
+    "taille": "S",
+    "longueur": "manches longues 3/4",
+    "type": "robe",
+    "forme": "ample",
+    "meteo": ["printemps", "automne", "hiver"],
+    "specificite": "col en V",
+    "photo": "/images/image(8).jpeg"
+  },
+  {
+    "couleurs": "noir avec fleurs blanches et argenté",
+    "marque": "IVIVI",
+    "taille": "S",
+    "longueur": "mi-longue",
+    "type": "jupe",
+    "forme": "ample",
+    "meteo": ["printemps", "été", "automne", "hiver"],
+    "specificite": "à une voilure",
+    "photo": "/images/image(10).jpeg"
+  },
+  {
+    "couleurs": "gris",
+    "marque": "Kiabi",
+    "taille": "14 ans",
+    "longueur": "mi-longue / manches courtes",
+    "type": "robe",
+    "forme": "ample",
+    "meteo": ["printemps", "été", "automne", "hiver"],
+    "specificite": "aucune",
+    "photo": "/images/image(11).jpeg"
+  },
+  {
+    "couleurs": "noir avec des fleurs rouges",
+    "marque": "Cache Cache",
+    "taille": "S",
+    "longueur": "longue / manches 3/4",
+    "type": "robe",
+    "forme": "ample",
+    "meteo": ["printemps", "été", "automne", "hiver"],
+    "specificite": "doublure",
+    "photo": "/images/image(12).jpeg"
+  },
+  {
+    "couleurs": "noir avec des fleurs dorées et jaune beige",
+    "marque": "jsp",
+    "taille": "S",
+    "longueur": "longue / manches 3/4",
+    "type": "robe",
+    "forme": "ample",
+    "meteo": ["printemps", "été", "automne", "hiver"],
+    "specificite": "en hiver ajouter des couches par dessus",
+    "photo": "/images/image(13).jpeg"
+  },
+  {
+    "couleurs": "noir",
+    "marque": "JDY",
+    "taille": "S",
+    "longueur": "mi-longue / manches courtes",
+    "type": "robe",
+    "forme": "ample",
+    "meteo": ["printemps", "été", "automne", "hiver"],
+    "specificite": "doublure et noeud à la taille",
+    "photo": "/images/image(14).jpeg"
+  },
+  {
+    "couleurs": "noir",
+    "marque": "aucune",
+    "taille": "S",
+    "longueur": "normale",
+    "type": "collants",
+    "forme": "normal",
+    "meteo": ["automne", "hiver"],
+    "specificite": "",
+    "photo": "/images/image(15).jpeg"
+  },
+  {
+    "couleurs": "noir avec velours blanc et petits plis",
+    "marque": "",
+    "taille": "",
+    "longueur": "longue",
+    "type": "jupe",
+    "forme": "",
+    "meteo": ["automne", "hiver"],
+    "specificite": "petits plis",
+    "photo": "/images/image(16).jpeg"
+  }
+]

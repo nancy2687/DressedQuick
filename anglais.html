@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<title>DressedQuick</title> 
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+
+<!-- ========================= 
+STUBBORN 
+========================= --> 
+
+<header> 
+<h1>DressedQuick</h1> 
+
+<h2> 
+Welcome to your wardrobe! 
+<!-- =========================
+WEATHER / SEASON
+========================= -->
+
+<section id="meteo">
+
+<h2>Weather</h2>
+<label for="ville">City: </label>
+<input
+type="text"
+id="ville"
+placeholder="e.g. Lyon"
+>
+
+<p>
+Season:
+<span id="saison"></span>
+</p>
+
+<p>
+Temperature:
+<span id="temperature">--- °C</span>
+</p>
+
+<button id="actualiserMeteo">
+Update weather
+</button>
+
+</section>
+
+
+<!-- =========================
+FILTERS
+========================= -->
+
+<section id="filtres">
+
+<h2>Search for an item of clothing</h2>
+
+<label for="type">Type:</label>
+
+<select id="type">
+<option value="Tous">All</option>
+<option value="t-shirt">T-shirt</option>
+<option value="pantalon">Trousers</option>
+<option value="robe">Dress</option>
+<option value="jupe">Skirt</option>
+<option value="collants">Tights</option>
+<option value="sous-vêtement">Undergarment</option>
+</select>
+
+
+<label for="taille">Size:</label>
+
+<select id="taille">
+<option value="">All</option>
+<option value="XS"> XS </option>
+<option value="S">S</option>
+<option value="M">M</option>
+<option value="L">L</option>
+<option value="autre taille"> Other size </option>
+</select>
+
+
+<label for="saisonFiltre">Season:</label>
+
+<select id="saisonFiltre">
+<option value="">All</option>
+<option value="printemps">Spring</option>
+<option value="summer">Summer</option>
+<option value="autumn">Autumn</option>
+<option value="winter">Winter</option>
+<option value="all seasons">All seasons</option>
+</select>
+
+<button id="search">
+Search
+</button>
+
+</section>
+
+
+<!-- =========================
+WARDROBE
+========================= -->
+
+<main>
+
+<h2>My wardrobe</h2>
+
+<section id="garde-robe">
+
+<!--
+Clothing items can be
+added here automatically
+using JavaScript. 
+-->
+
+</section>
+
+</main>
+
+
+<!-- =========================
+CLOTHING STATUS
+========================= -->
+
+<section id="clothing-status">
+<h2>Clothing status</h2>
+
+<p>
+Select one or more items from your wardrobe. 
+Then, click on a status to assign it to them. 
+If nothing is selected, the button will filter the wardrobe by status. 
+</p>
+
+<button type="button" data-status="Available">
+Available
+</button>
+
+<button type="button" data-status="In the washing machine">
+In the washing machine
+</button>
+
+<button type="button" data-status="In the laundry basket">
+In the laundry basket
+</button>
+
+<button type="button" data-status="Drying">
+Drying
+</button>
+
+<button type="button" data-status="Other">
+Other
+</button>
+</section>
+
+
+<!-- =========================
+PHOTO MODE
+========================= -->
+
+<section id="photo-mode">
+
+<h2>Photo mode</h2>
+
+<p>
+Add or take a photo of an item of clothing.
+</p> </p>
+
+<input
+type="file"
+accept="image/*"
+id="photo"
+>
+
+</section>
+
+
+<!-- =========================
+ADD AN ITEM OF CLOTHING
+========================= -->
+
+<section id="ajouter-vetement">
+
+<h2>Add an item of clothing manually</h2>
+
+<form>
+
+<label for="couleur">
+Color:
+</label>
+
+<input
+type="text"
+id="couleur"
+>
+
+
+<label for="marque">
+Brand:
+</label>
+
+<input
+type="text"
+id="marque"
+>
+
+
+<label for="typeVetement">
+Type:
+</label>
+
+<input
+type="text"
+id="typeVetement"
+>
+
+
+<label for="tailleVetement">
+Size:
+</label>
+
+<input
+type="text"
+id="tailleVetement"
+>
+
+
+<button type="submit">
+Add
+</button>
+
+</form>
+
+</section>
+<script src="script.js"></script>
+</body>
+</html> 

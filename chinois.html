@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>DressedQuick</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- ========================
+
+STUBBORN
+
+========================= -->
+
+<header>
+
+<h1>DressedQuick</h1>
+
+<h2>
+
+欢迎来到您的衣橱！
+
+</h2>
+
+<!-- ==========================
+
+天气/季节
+
+========================== -->
+
+<section id="meteo">
+
+<h2>天气</h2>
+
+<label for="ville">城市：</label>
+
+<input
+type="text"
+
+id="ville"
+
+placeholder="例如：里昂"
+
+>
+
+<p>
+
+季节：
+
+<span id="saison">---</span>
+
+</p>
+
+<p>
+
+温度：
+
+<span id="temperature">--- °C</span>
+
+</p>
+
+<button id="actualiserMeteo">
+
+刷新天气
+
+</button>
+
+</section>
+
+<!-- ==========================
+
+筛选器
+========================= -->
+
+<section id="filters">
+
+<h2>搜索服装</h2>
+
+<label for="type">类型：</label>
+
+<select id="type">
+
+<option value="All">全部</option>
+
+<option value="t-shirt">T恤</option>
+
+<option value="pants">裤子</option>
+
+<option value="dress">连衣裙</option>
+
+<option value="skirt">裙子</option>
+
+<option value="tights">紧身裤</option>
+
+<option value="underwear">内衣</option>
+
+</select>
+
+<label for="size">尺码：</label>
+
+<select id="size">
+
+<option value="">全部</option>
+
+<option value="XS">XS</option>
+
+<option value="S">S</option>
+
+<option value="M">M</option>
+
+<option value="L">L</option>
+
+<option value="other size">其他尺码</option>
+
+</select>
+
+<label for="seasonFilter">季节：</label>
+
+<select id="seasonFilter">
+
+<option value="">全部</option>
+
+<option value="spring">春季</option>
+
+<option value="summer">夏季</option>
+
+<option value="autumn">秋季</option>
+
+<option value="winter">冬季</option>
+
+<option value="all seasons">所有季节</option>
+
+</select>
+
+<button id="search">
+
+搜索
+
+</button>
+
+</section>
+
+<!-- ==========================
+
+衣橱
+
+========================= -->
+
+<main>
+
+<h2>我的衣橱</h2>
+
+<section id="garde-robe">
+
+<!-- 可以使用 JavaScript 在此处自动添加衣物。<!-- =================================================== -->
+
+--
+
+</section>
+
+</main>
+
+
+
+衣物状态
+
+
+
+<section id="clothing-condition">
+
+<h2>衣物状态</h2>
+
+<p>
+选择衣橱中的一件或多件衣物。
+
+然后点击状态按钮，将其应用到衣物上。
+
+如果没有进行选择，该按钮将按条件筛选衣柜。
+
+</p>
+
+<button type="button" data-etat="Available">
+可用
+
+</button>
+
+<button type="button" data-etat="在洗衣机中">
+
+在洗衣机中
+
+</button>
+
+<button type="button" data-etat="在购物车中">
+
+在购物车中
+
+</button>
+
+<button type="button" data-etat="Drying">
+
+晾干
+
+<button type="button" data-etat="Other">
+
+其他
+
+</button>
+
+</section>
+
+<!-- ===========================
+
+拍照模式
+========================== -->
+
+<section id="mode-photo">
+
+<h2>拍照模式</h2>
+
+<p>
+
+添加或拍摄一件衣服的照片。
+
+</p>
+
+<input
+type="file"
+accept="image/*"
+id="photo"
+
+>
+
+</section>
+
+<!-- =========================
+
+添加一件衣服
+
+========================= -->
+
+<section id="ajouter-vetement">
+
+<h2>手动添加一件衣服</h2>
+
+<form>
+
+<label for="couleur">
+
+颜色：
+
+</label>
+
+<input
+type="text"
+id="couleur"
+
+>
+
+<label for="marque">
+品牌：
+
+</label>
+
+<input
+type="text"
+id="marque"
+
+>
+
+<label <label for="typeVetement">
+
+类型：
+
+</label>
+
+<input
+type="text"
+id="typeVetement"
+
+>
+
+<label for="clothingsize">
+尺码：
+
+</label>
+
+<input
+type="text"
+id="clothingsize"
+
+>
+
+<button type="submit">
+
+添加

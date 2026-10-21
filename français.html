@@ -1,0 +1,292 @@
+  <!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DressedQuick</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         EN-TÊTE
+         ========================= -->
+
+    <header>
+        <h1>DressedQuick</h1>
+
+        <h2>
+            Bienvenue dans votre garde-robe !
+        </h2>
+  <!-- =========================
+         MÉTÉO / SAISON
+         ========================= -->
+
+    <section id="meteo">
+
+        <h2>Météo</h2>
+		<label for="ville">Ville : </label>
+		<input
+			type="text"
+			id="ville"
+			placeholder="Ex. Lyon"
+		>
+
+        <p>
+            Saison :
+            <span id="saison">---</span>
+        </p>
+
+        <p>
+            Température :
+            <span id="temperature">--- °C</span>
+        </p>
+		
+		<p> 
+			Prévision : 
+			<span id ="prevision">--- </span>
+		</p>
+
+        <button id="actualiserMeteo">
+            Actualiser la météo
+        </button>
+
+    </section>
+
+
+    <!-- =========================
+         FILTRES
+         ========================= -->
+
+    <section id="filtres">
+
+        <h2>Rechercher un vêtement</h2>
+
+        <label for="type">Type :</label>
+
+        <select id="type">
+            <option value="Tous">Tous</option>
+            <option value="t-shirt">T-shirt</option>
+            <option value="pantalon">Pantalon</option>
+            <option value="robe">Robe</option>
+            <option value="jupe">Jupe</option>
+            <option value="collants">Collants</option>
+			<option value="sous-vêtement">sous-vêtement</option>
+        </select>
+
+
+        <label for="taille">Taille :</label>
+
+        <select id="taille">
+            <option value="">Toutes</option>
+			<option value="XS"> XS </option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+			<option value="autre taille"> Autre Taille </option>
+        </select>
+
+
+        <label for="saisonFiltre">Saison :</label>
+
+        <select id="saisonFiltre">
+            <option value="">Toutes</option>
+            <option value="printemps">Printemps</option>
+            <option value="été">Été</option>
+            <option value="automne">Automne</option>
+            <option value="hiver">Hiver</option>
+			<option value="toutes les saisons"> Toutes les saisons</option>
+        </select>
+
+        <button id="rechercher">
+            Rechercher
+        </button>
+
+    </section>
+
+
+    <!-- =========================
+         GARDE-ROBE
+         ========================= -->
+
+    <main>
+
+        <h2>Ma garde-robe</h2>
+
+        <section id="garde-robe">
+
+            <!--
+            Les vêtements pourront être
+            ajoutés automatiquement ici
+            avec JavaScript.
+            -->
+
+        </section>
+
+    </main>
+		
+		
+		
+		<section id="recommandation">
+		<h2> Mes tenues recommandées </h2>
+		<!-- affiche ici les vetements recommandées en fonctions de la météo et 
+		des prévision climatiques pour la ville Sélectionne --> 
+		
+		</section>
+
+    <!-- =========================
+         ÉTAT DES VÊTEMENTS
+         ========================= -->
+
+   <section id="etat-vetements">
+    <h2>État des vêtements</h2>
+
+    <p>
+        Sélectionne un ou plusieurs vêtements dans ta garde-robe.
+        Clique ensuite sur un état pour le leur attribuer.
+        Sans sélection, le bouton filtre la garde-robe par état.
+    </p>
+
+    <button type="button" data-etat="Disponible">
+        Disponible
+    </button>
+
+    <button type="button" data-etat="Dans la machine">
+        Dans la machine
+    </button>
+
+    <button type="button" data-etat="Dans le panier">
+        Dans le panier
+    </button>
+
+    <button type="button" data-etat="En train de sécher">
+        En train de sécher
+    </button>
+
+    <button type="button" data-etat="Autres">
+        Autres
+    </button>
+</section>
+
+
+    <!-- =========================
+         MODE PHOTO
+         ========================= -->
+
+    <section id="mode-photo">
+
+        <h2>Mode photo</h2>
+
+        <p>
+            Ajouter ou prendre une photo d'un vêtement.
+        </p>
+
+        <input
+            type="file"
+            accept="image/*"
+            id="photo"
+        >
+
+    </section>
+
+
+    <!-- =========================
+         AJOUTER UN VÊTEMENT
+         ========================= -->
+
+    <section id="ajouter-vetement">
+
+        <h2>Ajouter un vêtement manuellement</h2>
+
+        <form>
+
+            <label for="couleur">
+                Couleur :
+            </label>
+
+            <input
+                type="text"
+                id="couleur"
+            >
+
+
+            <label for="marque">
+                Marque :
+            </label>
+
+            <input
+                type="text"
+                id="marque"
+            >
+
+
+            <label for="typeVetement">
+                Type :
+            </label>
+
+            <input
+                type="text"
+                id="typeVetement"
+            >
+
+
+            <label for="tailleVetement">
+                Taille :
+            </label>
+
+            <input
+                type="text"
+                id="tailleVetement"
+            >
+
+
+            <button type="submit">
+                Ajouter le vêtement
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- =========================
+         INFORMATIONS / RÈGLES
+         ========================= -->
+
+    <footer>
+
+        <p>
+            <a href="#">
+                Conditions d'utilisation
+            </a>
+        </p>
+
+        <p>
+            <a href="#">
+                Charte d'utilisation
+            </a>
+        </p>
+
+        <p>
+            <a href="#">
+                Droits d'utilisation
+            </a>
+        </p>
+
+    </footer>
+
+
+    <!-- =========================
+         JAVASCRIPT
+         ========================= -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
