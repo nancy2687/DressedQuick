@@ -8,7 +8,7 @@
     "forme": "normal",
     "meteo": ["printemps", "été", "automne", "hiver"],
     "specificite": "plus long que les autres",
-    "photo": "images/image(1).jpeg"
+    "photo": "/images/image(1).jpeg"
   },
   {
     "couleurs": "rose avec manches et bordures noires",
@@ -19,7 +19,7 @@
     "forme": "cintré",
     "meteo": ["printemps", "été", "automne", "hiver"],
     "specificite": "les manches sont quasiment inexistantes",
-    "photo": "images/image(2).jpeg"
+    "photo": "/images/image(2).jpeg"
   },
   {
     "couleurs": "blanc",
@@ -30,7 +30,7 @@
     "forme": "ample",
     "meteo": ["printemps", "été", "automne", "hiver"],
     "specificite": "dentelles sur les manches",
-    "photo": "images/image(3).jpeg"
+    "photo": "/images/image(3).jpeg"
   },
   {
     "couleurs": "rose",
@@ -41,7 +41,7 @@
     "forme": "ample",
     "meteo": ["printemps", "été", "automne", "hiver"],
     "specificite": "dentelles sur les manches",
-    "photo": "images/image(3).jpeg"
+    "photo": "/images/image(3).jpeg"
   },
   {
     "couleurs": "violet",
@@ -52,7 +52,7 @@
     "forme": "normal",
     "meteo": ["printemps", "été", "automne", "hiver"],
     "specificite": "col en V",
-    "photo": "images/image(4).jpeg"
+    "photo": "/images/image(4).jpeg"
   },
   {
     "couleurs": "bleu",
@@ -85,7 +85,7 @@
     "forme": "normal",
     "meteo": ["printemps", "automne", "hiver"],
     "specificite": "velours",
-    "photo": "images/Image(7).jpeg"
+    "photo": "/images/Image(7).jpeg"
   },
   {
     "couleurs": "noir avec différentes fleurs",
@@ -96,7 +96,7 @@
     "forme": "ample",
     "meteo": ["printemps", "automne", "hiver"],
     "specificite": "col en V",
-    "photo": "images/image(8).jpeg"
+    "photo": "/images/image(8).jpeg"
   },
   {
     "couleurs": "noir avec fleurs blanches et argenté",
@@ -107,7 +107,7 @@
     "forme": "ample",
     "meteo": ["printemps", "été", "automne", "hiver"],
     "specificite": "à une voilure",
-    "photo": "images/image(10).jpeg"
+    "photo": "/images/image(10).jpeg"
   },
   {
     "couleurs": "gris",
@@ -118,7 +118,7 @@
     "forme": "ample",
     "meteo": ["printemps", "été", "automne", "hiver"],
     "specificite": "aucune",
-    "photo": "images/image(11).jpeg"
+    "photo": "/images/image(11).jpeg"
   },
   {
     "couleurs": "noir avec des fleurs rouges",
@@ -129,7 +129,7 @@
     "forme": "ample",
     "meteo": ["printemps", "été", "automne", "hiver"],
     "specificite": "doublure",
-    "photo": "images/image(12).jpeg"
+    "photo": "/images/image(12).jpeg"
   },
   {
     "couleurs": "noir avec des fleurs dorées et jaune beige",
@@ -140,7 +140,7 @@
     "forme": "ample",
     "meteo": ["printemps", "été", "automne", "hiver"],
     "specificite": "en hiver ajouter des couches par dessus",
-    "photo": "images/image(13).jpeg"
+    "photo": "/images/image(13).jpeg"
   },
   {
     "couleurs": "noir",
@@ -151,7 +151,7 @@
     "forme": "ample",
     "meteo": ["printemps", "été", "automne", "hiver"],
     "specificite": "doublure et noeud à la taille",
-    "photo": "images/image(14).jpeg"
+    "photo": "/images/image(14).jpeg"
   },
   {
     "couleurs": "noir",
@@ -162,7 +162,7 @@
     "forme": "normal",
     "meteo": ["automne", "hiver"],
     "specificite": "",
-    "photo": "images/image(15).jpeg"
+    "photo": "/images/image(15).jpeg"
   },
   {
     "couleurs": "noir avec velours blanc et petits plis",
@@ -173,6 +173,6 @@
     "forme": "",
     "meteo": ["automne", "hiver"],
     "specificite": "petits plis",
-    "photo": "images/image(16).jpeg"
+    "photo": "/images/image(16).jpeg"
   }
 ]
